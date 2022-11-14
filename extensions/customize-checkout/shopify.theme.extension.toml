@@ -1,0 +1,6 @@
+name = "customize-checkout"
+type = "theme"
+
+extension_points = [
+  'Checkout::ShippingMethods::RenderAfter'
+]
